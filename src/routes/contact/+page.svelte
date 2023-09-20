@@ -1,3 +1,12 @@
+<svelte:head>
+	<title>Software Developer Portfolio: Shalaw Fatah, Contact</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the portfolio of Shalaw Fatah, Contact page, a software Developer">
+  <meta name="keywords" content="Javascript, React, Svelte, Software">
+  <meta name="author" content="Shalaw Fatah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</svelte:head>
+
 <div class="flex justify-center bg-[#111727] text-white min-h-screen">
     <div class="max-w-screen-xl">
         <h1 class="text-4xl font-bold text-center my-4 text-white">About me</h1>

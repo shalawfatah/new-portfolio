@@ -1,8 +1,16 @@
 <script>
-    import Btn from "../../lib/general/Btn.svelte";
-  
-      export let data;
-  </script>
+    export let data;
+</script>
+
+<svelte:head>
+	<title>Software Developer Portfolio: Shalaw Fatah, Blog page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the portfolio of Shalaw Fatah, blog page, a software Developer">
+  <meta name="keywords" content="Javascript, React, Svelte, Software">
+  <meta name="author" content="Shalaw Fatah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</svelte:head>
+
   <div class="flex justify-center py-8 bg-[#111727] min-h-screen">
       <div class="max-w-screen-xl">
           <h1 class="text-4xl font-bold text-center my-4 text-white">Technical Writings</h1>

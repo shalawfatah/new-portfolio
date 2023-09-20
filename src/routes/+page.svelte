@@ -27,6 +27,16 @@ const general = [
   "GCP, Digital Ocean"
 ];
 </script>
+
+<svelte:head>
+	<title>Software Developer Portfolio: Shalaw Fatah, Home page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the portfolio of Shalaw Fatah, home page, a software Developer">
+  <meta name="keywords" content="Javascript, React, Svelte, Software">
+  <meta name="author" content="Shalaw Fatah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</svelte:head>
+
 <div clas="bg-[#111727] min-h-screen">
   <section class="bg-[#111727]">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">

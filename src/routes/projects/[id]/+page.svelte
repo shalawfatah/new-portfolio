@@ -4,6 +4,15 @@
     export let data;
 </script>
 
+<svelte:head>
+	<title>Software Developer Portfolio: Shalaw Fatah, Single Project</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is the portfolio of Shalaw Fatah, Single Project page, a software Developer">
+  <meta name="keywords" content="Javascript, React, Svelte, Software">
+  <meta name="author" content="Shalaw Fatah">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</svelte:head>
+
 <div class="p-10 bg-[#111727] text-white flex justify-center min-h-screen">
     <div class="max-w-screen-xl p-4">
         <h1 class="text-2xl font-bold text-center">{data.data.title}</h1>
