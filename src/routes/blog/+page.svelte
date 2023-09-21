@@ -11,9 +11,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
-  <div class="flex justify-center py-8 bg-[#111727] min-h-screen">
+  <div class="flex justify-center py-4 bg-[#111727] min-h-screen">
       <div class="max-w-screen-xl">
-          <h1 class="text-4xl font-bold text-center my-4 text-white">Technical Writings</h1>
+            <h1 class="text-4xl font-bold text-center mb-4 text-white">Technical Writings</h1>
           {#each data.data as blog}
           <a href={blog.link} target="_blank" class="text-white" >
               <div class="shadow-md shadow-[#373737] m-4 p-8 rounded-md bg-[#1e2331] hover:bg-[#354676] duration-300">

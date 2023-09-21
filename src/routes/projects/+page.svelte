@@ -13,9 +13,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
-<div class="bg-[#111727] py-8  min-h-screen">
+<div class="bg-[#111727] py-4  min-h-screen">
     <div class="max-w-screen-xl mx-auto">
-        <h1 class="text-4xl font-bold text-center text-white">Sample Projects</h1>
+        <h1 class="text-4xl font-bold text-center mb-4 text-white">Sample Projects</h1>
         {#each data.data as project}
         <a href={`projects/${project.id}`}>
             <div class="bg-[#2f3852] shadow-md shadow-[#2e2d45] m-4 p-4 rounded-md hover:bg-[#34509C] transition-all duration-300">
