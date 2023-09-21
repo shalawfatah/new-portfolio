@@ -12,6 +12,7 @@
       "Vue, NuxtJS, VuePress",
       "JSX, Blade, Pug"
   ];
+
 const backend = [
     "NodeJS, ExpressJS, Fastify",
     "PHP, WordPress CMS",
@@ -22,6 +23,7 @@ const backend = [
     "Prisma, TypeORM",
     "REST API, GraphQL"
   ];
+  
 const general = [
     "cPanel, DNS",
     "GIS, Geo-mapping",

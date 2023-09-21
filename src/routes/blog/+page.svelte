@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Software Developer Portfolio: Shalaw Fatah, Blog page</title>
+  <title>Software Developer Portfolio: Shalaw Fatah, Blog page</title>
   <meta charset="UTF-8">
   <meta name="description" content="This is the portfolio of Shalaw Fatah, blog page, a software Developer">
   <meta name="keywords" content="Javascript, React, Svelte, Software">

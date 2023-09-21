@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Software Developer Portfolio: Shalaw Fatah, Single Project</title>
+  <title>Software Developer Portfolio: Shalaw Fatah, Single Project</title>
   <meta charset="UTF-8">
   <meta name="description" content="This is the portfolio of Shalaw Fatah, Single Project page, a software Developer">
   <meta name="keywords" content="Javascript, React, Svelte, Software">
@@ -15,7 +15,7 @@
 
 <div class="p-4 px-10 bg-[#111727] text-white flex justify-center min-h-screen">
     <div class="max-w-screen-xl">
-        <h1 class="text-2xl mb-4 font-bold text-center">{data.data.title}</h1>
+        <h2 class="text-2xl mb-4 font-bold text-center">{data.data.title}</h2>
         <div class="flex gap-x-3 text-xs my-4 justify-center">
             {#each data.data.techstack as tech}
                 <p class="bg-gray-200 text-[#111727] px-2 rounded-sm">{tech}</p>
