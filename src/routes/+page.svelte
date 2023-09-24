@@ -23,7 +23,7 @@
     <div class="mb-8">
       <Title text="Projects" color={"white"} />
     </div>
-    <div class="flex gap-4">
+    <div class="flex flex-wrap gap-4 justify-center">
       {#each data.data as item}
         <Featured title={item.title} description={item.content} image={item.picture} live={item.live} github={item.github} />
       {/each}
