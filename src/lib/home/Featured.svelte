@@ -3,10 +3,26 @@
     export let title;
     export let live;
     export let github;
+    import Img from '@zerodevx/svelte-img'
+
+    const src = {
+    img: { src: `${image}`, w: 400 , h: 300 },
+    sources: {
+        // Order is important; last format is fallback img
+        webp: [
+        { src: `${image}`, w: 400 },
+        { src: 'path/to/img', w: 400 }
+        ],
+        jpeg: [
+        { src: `${image}`, w: 400 },
+        { src: `${image}`, w: 400 }
+        ]
+    }
+    }
 </script>
 
 <div class="relative">
-    <img loading="lazy" src={image} alt={title} class="opacity-60 hover:opacity-100 duration-300 w-96 h-60 rounded-lg shadow-sm shadow-gray-300" />
+    <Img class="opacity-60 hover:opacity-100 duration-300 w-96 h-60 rounded-lg shadow-sm shadow-gray-300" {src} alt={title} />
     <h5 class="mb-1 text-xl font-medium text-white my-4 text-center">{title}</h5>
     <div class="flex justify-center items-center">
         <div class="absolute bottom-16 flex mt-4 space-x-3 md:mt-6">
