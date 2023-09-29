@@ -61,7 +61,7 @@
   </section>
   <section class="bg-[#111727] text-white gap-4 pb-16 flex justify-center">
     <div class="mt-12">
-      <h1 class="text-4xl font-bold text-center my-4 text-white">Contact me</h1>
+      <Title text="Contact Me" color={"white"} />
       <div class="my-4 flex justify-center">
           <div class="flex flex-wrap justify-center gap-4">
               <ContactBlock target="_self" link="#" text="@Canada">
