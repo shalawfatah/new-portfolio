@@ -11,7 +11,7 @@
         // Order is important; last format is fallback img
         webp: [
         { src: `${image}`, w: 400 },
-        { src: 'path/to/img', w: 400 }
+        { src: `${image}`, w: 400 }
         ],
         jpeg: [
         { src: `${image}`, w: 400 },
