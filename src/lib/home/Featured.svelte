@@ -8,8 +8,15 @@
     const src = {
     img: { src: `${image}`, w: 400 , h: 300 },
     sources: {
-        // Order is important; last format is fallback img
         webp: [
+        { src: `${image}`, w: 400 },
+        { src: `${image}`, w: 400 }
+        ],
+        jpg: [
+        { src: `${image}`, w: 400 },
+        { src: `${image}`, w: 400 }
+        ],
+        png: [
         { src: `${image}`, w: 400 },
         { src: `${image}`, w: 400 }
         ],
