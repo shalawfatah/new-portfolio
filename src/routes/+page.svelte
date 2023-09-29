@@ -1,4 +1,9 @@
 <script>
+  import ContactBlock from "../lib/contact/ContactBlock.svelte";
+  import DiGithubBadge from 'svelte-icons/di/DiGithubBadge.svelte';
+  import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
+  import MdEmail from 'svelte-icons/md/MdEmail.svelte';
+  import IoIosPin from 'svelte-icons/io/IoIosPin.svelte';
   import SkillComponent from "../lib/general/SkillComponent.svelte";
   import Title from "../lib/general/Title.svelte";
   import Hero from "../lib/home/Hero.svelte";
@@ -53,5 +58,28 @@
             />
       </div>
     </div>
+  </section>
+  <section class="bg-[#111727] text-white gap-4 pb-16 flex justify-center">
+    <div class="mt-12">
+      <h1 class="text-4xl font-bold text-center my-4 text-white">Contact me</h1>
+      <div class="my-4 flex justify-center">
+          <div class="flex flex-wrap justify-center gap-4">
+              <ContactBlock target="_self" link="#" text="@Canada">
+                  <IoIosPin />
+              </ContactBlock>
+              <ContactBlock link="mailto:shalaw.fatah@gmail.com" text="@shalaw.fatah">
+                  <MdEmail />
+              </ContactBlock>
+              <ContactBlock link="https://linkedin.com/in/shalawfatah" text="@shalawfatah">
+                  <FaLinkedin />
+              </ContactBlock>
+              <ContactBlock link="https://github.com/shalawfatah" text="@shalawfatah">
+                  <DiGithubBadge />
+              </ContactBlock>
+          </div>
+      </div>
+  </div>
+
+
   </section>
 </div>
