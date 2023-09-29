@@ -10,7 +10,6 @@
   import {frontend, backend, general} from '../lib/general/data';
   import Featured from "../lib/home/Featured.svelte";
   export let data;
-  let image = "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
 </script>
 
 <svelte:head>
@@ -22,24 +21,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
 
-<div class="bg-[#111727] min-h-screen">
+<main class="bg-[#111727] min-h-screen">
   <Hero />
-  <div class="flex flex-col justify-center items-center my-12">
-    <div class="mb-8">
+  <section class="flex flex-col justify-center items-center my-12">
+    <header class="mb-8">
       <Title text="Projects" color={"white"} />
-    </div>
-    <div class="flex flex-wrap gap-4 justify-center">
+    </header>
+    <article class="flex flex-wrap gap-4 justify-center">
       {#each data.data as item}
         <Featured title={item.title} description={item.content} image={item.picture} live={item.live} github={item.github} />
       {/each}
-    </div>
+    </article>
       <a class="my-8 underline hover:text-blue-500 duration-300 cursor-pointer font-black text-white text-xl text-center" href="/projects">More Projects</a>
-  </div>
+  </section>
   <section class="bg-[#111727] gap-4 flex justify-center">
     <div class="max-w-screen-xl ">
-      <div class="flex justify-center ">
+      <header class="flex justify-center ">
         <Title text="Skills" color={"white"} />
-      </div>
+      </header>
       <div class="flex flex-wrap justify-around my-4">
         <SkillComponent 
             title="Front-end" 
@@ -61,9 +60,9 @@
   </section>
   <section class="bg-[#111727] text-white gap-4 pb-16 flex justify-center">
     <div class="mt-12">
-      <div class="flex justify-center ">
+      <header class="flex justify-center ">
         <Title text="Contact Me" color={"white"} />
-      </div>
+      </header>
       <div class="my-4 flex justify-center">
           <div class="flex flex-wrap justify-center gap-4">
               <ContactBlock target="_self" link="#" text="@Canada">
@@ -81,7 +80,5 @@
           </div>
       </div>
   </div>
-
-
   </section>
-</div>
+</main>
