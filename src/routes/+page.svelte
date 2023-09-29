@@ -28,6 +28,7 @@
         <Featured title={item.title} description={item.content} image={item.picture} live={item.live} github={item.github} />
       {/each}
     </div>
+      <a class="my-8 underline hover:text-blue-500 duration-300 cursor-pointer font-black text-white text-xl text-center" href="/projects">More Projects</a>
   </div>
   <section class="bg-[#111727] gap-4 flex justify-center">
     <div class="max-w-screen-xl ">
