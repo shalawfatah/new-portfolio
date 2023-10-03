@@ -1,14 +1,14 @@
 <script>
     export let title;
     export let description;
-    export let data;
+    export let data 
 </script>
 
 <div
   class="relative 
          block lg:w-96 
          sm:w-auto md:w-96 
-         rounded-lg m-4 
+        rounded-lg m-4 
        text-white bg-[#1E2331] 
          shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
          pb-10
