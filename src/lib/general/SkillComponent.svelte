@@ -13,7 +13,7 @@
          shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]
          pb-10
         ">
-  <div class="p-10">
+  <div class="px-10 pt-10 pb-2">
     <h3
       class="mb-2 text-2xl font-black leading-tight">
       {title}
@@ -25,7 +25,7 @@
   <ul class="w-full">
     {#each data as item}
     <li
-      class="w-full border-b-[1px] border-[#151924] px-10 py-[6px]">
+      class="w-full border-b-[1px] border-[#151924] px-10 p-[6px]">
       {item}
     </li>
     {/each}
