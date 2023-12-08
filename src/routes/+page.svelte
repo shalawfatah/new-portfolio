@@ -9,7 +9,9 @@
   import Hero from "../lib/home/Hero.svelte";
   import {frontend, backend, general} from '../lib/general/data';
   import Featured from "../lib/home/Featured.svelte";
+  import Github from "../lib/home/Github.svelte";
   export let data;
+  console.log(data)
 </script>
 
 <svelte:head>
@@ -20,7 +22,6 @@
   <meta name="author" content="Shalaw Fatah">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
-
 <main class="bg-[#111727] min-h-screen">
   <Hero />
   <section class="flex flex-col justify-center items-center my-12">

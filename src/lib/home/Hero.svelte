@@ -1,3 +1,7 @@
+<script>
+  import Github from "./Github.svelte";
+
+</script>
 <section class="bg-[#111727]">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
@@ -10,6 +14,9 @@
             </a>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex relative">
+          <div class="absolute github">
+            <Github />
+          </div>
           <svg  viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path fill="#F2F4F8" d="M43.9,-49.3C57.3,-41.1,68.8,-27.6,73.2,-11.6C77.6,4.4,74.8,23,65.2,35.9C55.7,48.7,39.3,55.8,22.2,62.9C5,70,-12.8,77.2,-29.8,74.3C-46.8,71.4,-63,58.6,-71.1,42.2C-79.2,25.8,-79.3,5.9,-75.9,-13.3C-72.4,-32.5,-65.4,-51.1,-52.2,-59.3C-38.9,-67.5,-19.5,-65.4,-2.1,-62.9C15.3,-60.4,30.5,-57.5,43.9,-49.3Z" transform="translate(100 100)" />
           </svg>
@@ -19,3 +26,13 @@
         </div>                
     </div>
   </section>
+  
+  <style>
+    .github {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+    }
+  </style>

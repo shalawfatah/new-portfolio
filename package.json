@@ -20,6 +20,7 @@
 	"type": "module",
 	"dependencies": {
 		"@supabase/supabase-js": "^2.33.2",
+		"activity-calendar-widget": "^0.0.14",
 		"svelte-icons": "^2.1.0"
 	}
 }
